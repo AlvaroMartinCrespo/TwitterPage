@@ -1,0 +1,290 @@
+*{
+
+    padding: 0;
+    margin: 0;
+    font-family: TwitterChirp, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+
+}
+
+/*
+
+    Containers
+
+*/
+
+#container{
+
+    display: flex;
+    
+
+}
+
+#container-texto{
+
+    display: flex;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    height: 100%;
+    width: 50%;
+    background-color: black;
+
+}
+
+#container-login{
+
+    border: 1px solid black;
+    height: 100%;
+    width: 50%;
+    background-color: rgb(32 35 39);
+
+}
+
+/*
+
+    Contenido Izquierda
+
+*/
+
+p{
+
+    font-weight: bold;
+    font-size: 4.8em;
+    margin-bottom: 40px;
+    padding-left: 103px;
+    line-height: 70px;
+
+
+}
+
+input{
+
+    margin-left: 103px;
+    width: 460px;
+    height: 35px;
+    border-radius: 20px;
+    padding-left: 20px;
+    background-color: transparent;
+    border: 1px solid gray;
+    color: white;
+    margin-bottom: 30px;
+}
+
+
+.contenido{
+
+    margin-top: 105px;
+    margin-bottom: 105px;
+    width: 700px;
+    height: 670px;
+
+}
+
+.white{
+
+    color: white;
+
+}
+
+#logo-img{
+
+    width: 7%;
+    height: auto;
+    margin-bottom: 40px;
+    padding-left: 103px;
+    padding-top: 33px;
+
+}
+
+#spans{
+
+    display: flex;
+
+}
+
+#border{
+
+    margin-left: 103px;
+    width: 400px;
+
+}
+
+.spans-text{
+
+    cursor: pointer;
+    color: grey;
+    padding-right: 10px;
+    font-size: 0.9em;
+
+}
+
+.spans-text:hover{
+    
+    text-decoration: underline;
+
+}
+
+#ablue{
+
+    color: #1da1f3;
+
+}
+
+/*
+
+    Container login
+
+*/
+
+.img{
+
+    width: 5%;
+    margin-right: 5px;
+
+}
+
+#iniciarSesion{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#container-login{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(32 35 39);
+
+}
+
+.btn{
+
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background-color: white;
+    margin-bottom: 15px;
+    width: 350px;
+    height: 37px;
+    border-radius: 20px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+
+}
+
+#spanFlex{
+
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    margin-bottom: 15px;
+
+}
+
+hr{
+
+    width: 165px;
+    margin-left: 6px;
+    margin-right: 6px;
+    margin-bottom: 8px;
+    border: 1px solid rgb(47, 51, 54);
+
+
+
+
+}
+
+#colorSpan{
+
+    color: white;
+    margin-left: 5px;
+    margin-right: 5px;
+
+}
+
+#politicas{
+
+    width: 350px;
+    margin-bottom: 15px;
+
+}
+
+.spanSesion{
+
+    color: rgb(81, 91, 99);
+    font-size: 0.8em;
+    line-height: 1px;
+
+}
+
+#noTienesCuenta{
+
+    
+
+}
+
+.tamaño{
+    font-size: 1em;
+}
+
+.white{
+
+    color: white;
+    
+
+}
+
+.blue{
+
+    color: #1da1f3;
+    cursor: pointer;
+
+}
+
+.blue:hover{
+
+    text-decoration: underline;
+
+}
+
+/*
+
+    Footer
+
+*/
+
+#footer{
+
+    background-color: rgb(32 35 39);
+    height: 51px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+
+}
+
+.spanfooter{
+
+    font-size: 0.8em;
+    color: rgb(81, 91, 99);
+    margin: 10px;
+    cursor: pointer;
+
+}
+
+.spanfooter:hover{
+
+    text-decoration: underline;
+
+}
+
+
